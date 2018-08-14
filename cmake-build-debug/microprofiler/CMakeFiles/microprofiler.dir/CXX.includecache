@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/harry/priProjects/personal/react-native/ReactCommon/microprofiler/MicroProfiler.cpp
+algorithm
+-
+chrono
+-
+mutex
+-
+vector
+-
+time.h
+-
+glog/logging.h
+-
+MicroProfiler.h
+/home/harry/priProjects/personal/react-native/ReactCommon/microprofiler/MicroProfiler.h
+
+/home/harry/priProjects/personal/react-native/ReactCommon/microprofiler/MicroProfiler.h
+atomic
+-
+thread
+-
+

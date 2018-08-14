@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjsinspector.a  CMakeFiles/jsinspector.dir/InspectorInterfaces.cpp.o
+/usr/bin/ranlib libjsinspector.a

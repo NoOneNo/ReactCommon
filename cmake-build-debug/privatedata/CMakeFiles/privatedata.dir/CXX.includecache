@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/harry/priProjects/personal/react-native/ReactCommon/privatedata/PrivateDataBase.cpp
+PrivateDataBase.h
+/home/harry/priProjects/personal/react-native/ReactCommon/privatedata/PrivateDataBase.h
+
+/home/harry/priProjects/personal/react-native/ReactCommon/privatedata/PrivateDataBase.h
+cassert
+-
+cstdlib
+-
+type_traits
+-
+

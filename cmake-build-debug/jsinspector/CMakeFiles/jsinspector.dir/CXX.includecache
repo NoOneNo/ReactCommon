@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/harry/priProjects/personal/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp
+InspectorInterfaces.h
+/home/harry/priProjects/personal/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+mutex
+-
+unordered_map
+-
+tuple
+-
+
+/home/harry/priProjects/personal/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+functional
+-
+memory
+-
+string
+-
+vector
+-
+

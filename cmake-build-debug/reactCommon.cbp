@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="reactCommon"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\yoga\;CMake Files\jschelpers\;CMake Files\privatedata\;CMake Files\jsinspector\;CMake Files\microprofiler\;CMake Files\cxxreact\;CMake Files\cxxreact\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactCommon">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/reactCommon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 reactCommon"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactCommon/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/reactCommon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 reactCommon/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yoga">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/libyoga.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 yoga"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yoga/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/libyoga.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 yoga/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/yoga/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jschelpers">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/libjschelpers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 jschelpers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jschelpers/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/libjschelpers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 jschelpers/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jschelpers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="privatedata">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/libprivatedata.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 privatedata"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="privatedata/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/libprivatedata.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 privatedata/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/privatedata/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsinspector">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/libjsinspector.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 jsinspector"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsinspector/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/libjsinspector.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 jsinspector/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/jsinspector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="microprofiler">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/libmicroprofiler.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 microprofiler"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="microprofiler/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/libmicroprofiler.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 microprofiler/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/microprofiler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxxreact">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/libcxxreact.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 cxxreact"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cxxreact/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/libcxxreact.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 cxxreact/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsctest">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/jsctest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 jsctest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsctest/fast">
+				<Option output="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/jsctest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/webkitgtk-1.0"/>
+					<Add directory="/home/harry/priProjects/personal/react-native/ReactCommon/."/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 jsctest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/harry/priProjects/personal/react-native/ReactCommon/cmake-build-debug/cxxreact/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/CxxModule.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/CxxNativeModule.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/CxxNativeModule.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/Instance.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/Instance.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSBigString.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSBigString.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSBundleType.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSBundleType.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCExecutor.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCExecutor.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCLegacyTracing.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCLegacyTracing.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCMemory.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCMemory.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCNativeModules.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCNativeModules.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCPerfStats.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCPerfStats.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCSamplingProfiler.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCSamplingProfiler.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCTracing.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCTracing.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCUtils.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSCUtils.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSDeltaBundleClient.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSDeltaBundleClient.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSExecutor.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSExecutor.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSIndexedRAMBundle.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSIndexedRAMBundle.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JSModulesUnbundle.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JsArgumentHelpers-inl.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/JsArgumentHelpers.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/MessageQueueThread.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/MethodCall.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/MethodCall.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/ModuleRegistry.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/ModuleRegistry.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/NativeModule.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/NativeToJsBridge.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/NativeToJsBridge.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/Platform.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/Platform.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/RAMBundleRegistry.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/RAMBundleRegistry.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/ReactMarker.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/ReactMarker.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/RecoverableError.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/SampleCxxModule.cpp">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/SampleCxxModule.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/SharedProxyCxxModule.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/SystraceSection.h">
+			<Option target="cxxreact"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/tests/jscexecutor.cpp">
+			<Option target="jsctest"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jschelpers/JSCHelpers.cpp">
+			<Option target="jschelpers"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jschelpers/JSCHelpers.h">
+			<Option target="jschelpers"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jschelpers/Unicode.cpp">
+			<Option target="jschelpers"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jschelpers/Unicode.h">
+			<Option target="jschelpers"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jschelpers/Value.cpp">
+			<Option target="jschelpers"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jschelpers/Value.h">
+			<Option target="jschelpers"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp">
+			<Option target="jsinspector"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jsinspector/InspectorInterfaces.h">
+			<Option target="jsinspector"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/main.cpp">
+			<Option target="reactCommon"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/microprofiler/MicroProfiler.cpp">
+			<Option target="microprofiler"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/microprofiler/MicroProfiler.h">
+			<Option target="microprofiler"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/privatedata/PrivateDataBase.cpp">
+			<Option target="privatedata"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/privatedata/PrivateDataBase.h">
+			<Option target="privatedata"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/Utils.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/Utils.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGConfig.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGConfig.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGEnums.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGEnums.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGFloatOptional.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGLayout.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGLayout.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGMacros.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGNode.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGNode.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGNodePrint.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGNodePrint.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGStyle.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/YGStyle.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/Yoga-internal.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/Yoga.cpp">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/yoga/Yoga.h">
+			<Option target="yoga"/>
+		</Unit>
+		<Unit filename="/usr/src/gtest/src/gtest_main.cc">
+			<Option target="jsctest"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/yoga/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\yoga\"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jschelpers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\jschelpers\"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/privatedata/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\privatedata\"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/jsinspector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\jsinspector\"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/microprofiler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\microprofiler\"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cxxreact\"/>
+		</Unit>
+		<Unit filename="/home/harry/priProjects/personal/react-native/ReactCommon/cxxreact/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cxxreact\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
