@@ -8,6 +8,8 @@ cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././cxxreact/JSExecuto
 cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././cxxreact/MessageQueueThread.h
 cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././cxxreact/MethodCall.h
 cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././cxxreact/NativeModule.h
+cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././cxxreact/Platform.h
+cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././cxxreact/ReactMarker.h
 cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././jschelpers/JSCHelpers.h
 cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././jschelpers/JSCWrapper.h
 cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o: .././jschelpers/JavaScriptCore.h

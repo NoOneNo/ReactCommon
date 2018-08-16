@@ -11,6 +11,7 @@
 #include <string>
 #include <JavaScriptCore/JavaScript.h>
 
+
 #if defined(JSCINTERNAL) || (!defined(__APPLE__))
 #define JSC_IMPORT extern "C"
 #else

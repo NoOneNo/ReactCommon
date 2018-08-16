@@ -9,6 +9,8 @@ cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o
  .././cxxreact/MessageQueueThread.h
  .././cxxreact/MethodCall.h
  .././cxxreact/NativeModule.h
+ .././cxxreact/Platform.h
+ .././cxxreact/ReactMarker.h
  .././jschelpers/JSCHelpers.h
  .././jschelpers/JSCWrapper.h
  .././jschelpers/JavaScriptCore.h

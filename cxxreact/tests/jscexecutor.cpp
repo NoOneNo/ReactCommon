@@ -8,6 +8,8 @@
 #include <cxxreact/MessageQueueThread.h>
 #include <cxxreact/MethodCall.h>
 #include <cxxreact/JSBigString.h>
+#include <cxxreact/Platform.h>
+#include <cxxreact/MethodCall.h>
 
 using namespace facebook;
 using namespace facebook::react;
@@ -18,31 +20,9 @@ using namespace facebook::react;
 
 namespace {
 
-std::string capturedMethodCalls;
+  std::vector<MethodCall> capturedMethodCalls;
 
 struct NullDelegate : ExecutorDelegate {
-  virtual void registerExecutor(std::unique_ptr<JSExecutor> executor,
-                                std::shared_ptr<MessageQueueThread> queue) {
-    std::terminate();
-  }
-
-  virtual std::unique_ptr<JSExecutor> unregisterExecutor(JSExecutor& executor) {
-    std::terminate();
-  }
-
-  virtual std::vector<std::string> moduleNames() {
-    return std::vector<std::string>{};
-  }
-
-  virtual folly::dynamic getModuleConfig(const std::string& name) {
-    std::terminate();
-  }
-
-  virtual void callNativeModules(
-      JSExecutor& executor, std::string callJSON, bool isEndOfBatch) {
-    // TODO: capture calljson
-    std::terminate();
-  }
 
   virtual MethodCallResult callSerializableNativeHook(
       JSExecutor& executor, unsigned int moduleId, unsigned int methodId, folly::dynamic&& args) {
@@ -50,12 +30,21 @@ struct NullDelegate : ExecutorDelegate {
   }
 
   virtual std::shared_ptr<ModuleRegistry> getModuleRegistry() {
-     std::terminate();
+    // cxxreact/NativeModule.h
+    // ReactAndroid/src/main/jni/react/jni/JavaModuleWrapper.cpp
+    // ReactCommon/cxxreact/ModuleRegistry.cpp
+    return nullptr;
   }
 
   virtual void callNativeModules(
           JSExecutor& executor, folly::dynamic&& calls, bool isEndOfBatch) {
-    std::terminate();
+    // from ReactCommon/cxxreact/NativeToJsBridge.cpp
+    // cxxreact/MethodCall.h
+
+    // for (auto& call : parseMethodCalls(std::move(calls))) {
+    //  executor.callFunction(std::to_string(call.moduleId), std::to_string(call.methodId), call.arguments);
+    // }
+    capturedMethodCalls = parseMethodCalls(std::move(calls));
   }
 };
 
@@ -80,7 +69,7 @@ std::vector<MethodCall> executeForMethodCalls(
     int methodId,
     folly::dynamic args = folly::dynamic::array()) {
   e.callFunction(folly::to<std::string>(moduleId), folly::to<std::string>(methodId), std::move(args));
-  return parseMethodCalls(capturedMethodCalls);
+  return capturedMethodCalls;
 }
 
 void loadApplicationScript(JSCExecutor& e, std::string jsText) {
@@ -90,6 +79,12 @@ void loadApplicationScript(JSCExecutor& e, std::string jsText) {
 void setGlobalVariable(JSCExecutor& e, std::string name, std::string jsonObject) {
   e.setGlobalVariable(name, std::unique_ptr<JSBigString>(new JSBigStdString(jsonObject)));
 }
+
+void nativeInstallPrefHook(JSGlobalContextRef ctx) {
+
+}
+
+void logTaggedMarker(const ReactMarker::ReactMarkerId markerId, const char* tag){}
 
 }
 
@@ -103,13 +98,20 @@ TEST(JSCExecutor, Two) {
 }
 
 TEST(JSCExecutor, CallFunction) {
+  JSCNativeHooks::installPerfHooks = nativeInstallPrefHook;
+  ReactMarker::logTaggedMarker = logTaggedMarker;
+
   auto jsText = ""
-  "var Bridge = {"
+  "var __fbBatchedBridge = {"
   "  callFunctionReturnFlushedQueue: function (module, method, args) {"
   "    return [[module + 1], [method + 1], [args]];"
   "  },"
+  "  callFunctionReturnResultAndFlushedQueue: function (module, method, args) {"
+  "    return [[module + 1], [method + 1], [args]];"
+  "  },"
+  "  flushedQueue: function(){return [[], [], [], 0]; },"
+  "  invokeCallbackAndReturnFlushedQueue: function(cbID, args) {},"
   "};"
-  "function require() { return Bridge; }"
   "";
   JSCExecutor e(std::make_shared<NullDelegate>(), std::make_shared<FakeMessageQueue>(), folly::dynamic::object);
   loadApplicationScript(e, jsText);
@@ -119,10 +121,13 @@ TEST(JSCExecutor, CallFunction) {
   args.push_back("hello, world");
   args.push_back(4.0);
   auto returnedCalls = executeForMethodCalls(e, 10, 9, args);
+
+  e.destroy();
+
   ASSERT_EQ(1, returnedCalls.size());
   auto returnedCall = returnedCalls[0];
-  EXPECT_EQ(11, returnedCall.moduleId);
-  EXPECT_EQ(10, returnedCall.methodId);
+  EXPECT_EQ(101, returnedCall.moduleId);
+  EXPECT_EQ(91, returnedCall.methodId);
   ASSERT_EQ(4, returnedCall.arguments.size());
   EXPECT_EQ(args[0], returnedCall.arguments[0]);
   EXPECT_EQ(args[1], returnedCall.arguments[1]);

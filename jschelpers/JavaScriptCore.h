@@ -188,14 +188,19 @@ jsc_poison(JSObjectMakeArrayBufferWithBytesNoCopy JSObjectMakeTypedArray
 #define JSC_JSPokeSamplingProfiler(...)
 #define JSC_JSStartSamplingProfilingOnMainJSCThread(...)
 
+//#define JSC_JSPokeSamplingProfiler(...) __jsc_wrapper(JSPokeSamplingProfiler, __VA_ARGS__)
+//#define JSC_JSStartSamplingProfilingOnMainJSCThread(...) __jsc_wrapper(JSStartSamplingProfilingOnMainJSCThread, __VA_ARGS__)
+
 jsc_poison(JSSamplingProfilerEnabled JSPokeSamplingProfiler
            JSStartSamplingProfilingOnMainJSCThread)
 
 #define JSC_JSGlobalContextEnableDebugger(...)
+// #define JSC_JSGlobalContextEnableDebugger(...) __jsc_wrapper(JSGlobalContextEnableDebugger, __VA_ARGS__)
 // no need to poison JSGlobalContextEnableDebugger because it's not defined for System JSC / standard SDK header
 // jsc_poison(JSGlobalContextEnableDebugger)
 
 #define JSC_JSGlobalContextDisableDebugger(...)
+// #define JSC_JSGlobalContextDisableDebugger(...) __jsc_wrapper(JSGlobalContextDisableDebugger, __VA_ARGS__)
 // no need to poison JSGlobalContextDisableDebugger because it's not defined for System JSC / standard SDK header
 // jsc_poison(JSGlobalContextDisableDebugger)
 

@@ -86,6 +86,22 @@ folly/Optional.h
 folly/dynamic.h
 -
 
+.././cxxreact/Platform.h
+functional
+-
+memory
+-
+string
+-
+cxxreact/ReactMarker.h
+-
+jschelpers/JavaScriptCore.h
+-
+
+.././cxxreact/ReactMarker.h
+functional
+-
+
 .././jschelpers/JSCHelpers.h
 algorithm
 -
@@ -164,6 +180,10 @@ cxxreact/MessageQueueThread.h
 cxxreact/MethodCall.h
 -
 cxxreact/JSBigString.h
+-
+cxxreact/Platform.h
+-
+cxxreact/MethodCall.h
 -
 
 /usr/include/webkitgtk-1.0/JavaScriptCore/JSBase.h
