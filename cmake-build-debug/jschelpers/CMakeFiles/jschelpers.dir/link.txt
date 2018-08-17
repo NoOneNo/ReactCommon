@@ -1,2 +1,0 @@
-/usr/bin/ar qc libjschelpers.a  CMakeFiles/jschelpers.dir/JSCHelpers.cpp.o CMakeFiles/jschelpers.dir/Unicode.cpp.o CMakeFiles/jschelpers.dir/Value.cpp.o
-/usr/bin/ranlib libjschelpers.a

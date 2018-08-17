@@ -20,10 +20,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d62c950e-dd45-4f60-a7f4-bbe78a6e5ab6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cxxreact/tests/jscexecutor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cxxreact/tests/jscexecutor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jschelpers/JSCWrapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/jschelpers/JSCWrapper.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jschelpers/JavaScriptCore.h" beforeDir="false" afterPath="$PROJECT_DIR$/jschelpers/JavaScriptCore.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cxxreact/tests/CMakeFiles/jsctest.dir/jscexecutor.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cxxreact/tests/jsctest" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cxxreact/tests/jsctest" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,9 +43,10 @@
         <counts>
           <entry key="BUCK" value="6" />
           <entry key="CallFunction (disassembly)" value="25" />
-          <entry key="cpp" value="38" />
+          <entry key="chrono" value="1" />
+          <entry key="cpp" value="54" />
           <entry key="functional" value="1" />
-          <entry key="h" value="70" />
+          <entry key="h" value="95" />
           <entry key="hpp" value="1" />
           <entry key="mk" value="11" />
           <entry key="mutex" value="1" />
@@ -59,13 +58,13 @@
           <entry key="CMakeLists.txt" value="24" />
           <entry key="Disassembly" value="25" />
           <entry key="Makefile" value="11" />
-          <entry key="ObjectiveC" value="111" />
+          <entry key="ObjectiveC" value="153" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="431" />
+          <entry key="cpp" value="446" />
           <entry key="h" value="24" />
           <entry key="txt" value="241" />
         </counts>
@@ -73,12 +72,12 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="241" />
-          <entry key="ObjectiveC" value="455" />
+          <entry key="ObjectiveC" value="470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages">
         <counts>
-          <entry key="Google Test" value="52" />
+          <entry key="Google Test" value="56" />
         </counts>
       </usages-collector>
     </session>
@@ -86,81 +85,95 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxxreact/JSCExecutor.cpp">
+        <entry file="file://$PROJECT_DIR$/cxxreact/tests/methodcall.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="620" selection-start-line="620" selection-end-line="620" />
+            <state relative-caret-position="675">
+              <caret line="152" column="32" lean-forward="true" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxxreact/tests/jsclogging.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="33" />
               <folding>
                 <element signature="e#174#198#0" expanded="true" />
-                <element signature="e#1255#1318#0" expanded="true" />
-                <element signature="e#1246#2074#0" />
-                <element signature="e#2076#2850#0" />
-                <element signature="e#3289#3536#0" />
-                <element signature="e#4260#4477#0" />
-                <element signature="e#4479#4640#0" />
-                <element signature="e#4642#4906#0" />
-                <element signature="e#4908#5104#0" />
-                <element signature="e#5521#5557#0" expanded="true" />
-                <element signature="e#7718#10743#0" />
-                <element signature="e#10745#11152#0" />
-                <element signature="e#22396#22459#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/folly/json.h">
+        <entry file="file://$PROJECT_DIR$/cxxreact/tests/jscexecutor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="159" column="7" selection-start-line="159" selection-end-line="159" selection-end-column="7" />
+            <state relative-caret-position="834">
+              <caret line="237" column="7" lean-forward="true" selection-start-line="237" selection-start-column="7" selection-end-line="237" selection-end-column="7" />
+              <folding>
+                <element signature="e#174#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxxreact/tests/jsbigstring.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cxxreact/tests/jscexecutor.cpp">
+        <entry file="file://$PROJECT_DIR$/cxxreact/tests/jsarg_helpers.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="65" selection-start-line="65" selection-end-line="72" selection-end-column="1" />
+            <state relative-caret-position="206">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="100" selection-end-column="37" />
               <folding>
-                <element signature="e#174#198#0" expanded="true" />
-                <element signature="e#1603#1917#1" />
+                <element signature="e#174#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/folly/dynamic.h">
+        <entry file="file://$PROJECT_DIR$/cxxreact/JsArgumentHelpers.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-316">
-              <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+            <state relative-caret-position="732">
+              <caret line="108" selection-start-line="108" selection-end-line="108" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cxxreact/JsArgumentHelpers-inl.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="78" />
               <folding>
-                <element signature="e#2336#2430#1" />
-                <element signature="e#2443#2473#0" expanded="true" />
+                <element signature="e#257#296#0" expanded="true" />
+                <element signature="e#783#810#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/boost/operators.hpp">
+        <entry file="file://$PROJECT_DIR$/cxxreact/JSBigString.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="820" column="26" selection-start-line="820" selection-start-column="26" selection-end-line="820" selection-end-column="26" />
-              <folding>
-                <element signature="e#33256#33265#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1">
+              <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/4.9/bits/move.h">
+        <entry file="file:///usr/include/stdlib.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="101" column="72" lean-forward="true" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
+            <state relative-caret-position="288">
+              <caret line="563" column="13" selection-start-line="563" selection-start-column="13" selection-end-line="563" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -168,26 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cxxreact/MethodCall.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxxreact/MethodCall.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxxreact/JSExecutor.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="465">
+              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -215,8 +210,11 @@
       <find>__fb</find>
       <find>__fbRequireBatchedBridge</find>
       <find>llFunctionReturnFlush</find>
-      <find>callNativeModules</find>
+      <find>Create</find>
       <find>m_flushedQueueJS</find>
+      <find>callNativeModules</find>
+      <find>JSObjectMakeFunctionWithCallback</find>
+      <find>TimeType</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -240,15 +238,16 @@
         <option value="$PROJECT_DIR$/jschelpers/JavaScriptCore.h" />
         <option value="$PROJECT_DIR$/cxxreact/JSCExecutor.cpp" />
         <option value="$PROJECT_DIR$/cxxreact/tests/jscexecutor.cpp" />
+        <option value="$PROJECT_DIR$/jschelpers/Value.h" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-45" />
-    <option name="y" value="24" />
+    <option name="x" value="408" />
+    <option name="y" value="-4" />
     <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -273,6 +272,19 @@
               <item name="ReactCommon" type="47feb1d3:ProjectViewModuleNode" />
               <item name="ReactCommon" type="462c0819:PsiDirectoryNode" />
               <item name="cxxreact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactCommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactCommon" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="ReactCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="cxxreact" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactCommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactCommon" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="ReactCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="jschelpers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,23 +417,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534231331734</updated>
-      <workItem from="1534231333031" duration="59705000" />
+      <workItem from="1534231333031" duration="78286000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JSCExecutor_CallFunction - 2018.08.16 at 18h 24m 58s.xml">
-      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="JSCExecutor_CallFunction - 2018.08.16 at 18h 27m 10s.xml">
-      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="JSCExecutor_CallFunction - 2018.08.16 at 18h 28m 42s.xml">
-      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="JSCExecutor_CallFunction - 2018.08.16 at 18h 28m 55s.xml">
-      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="JSCExecutor_CallFunction - 2018.08.16 at 18h 28m 59s.xml">
       <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -440,26 +440,38 @@
     <history-entry file="JSCExecutor_CallFunction - 2018.08.16 at 18h 31m 11s.xml">
       <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="JSCExecutor_CallFunction - 2018.08.17 at 08h 34m 46s.xml">
+      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="JSCExecutor_CallFunction - 2018.08.17 at 08h 34m 57s.xml">
+      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="JSCExecutor_CallFunction - 2018.08.17 at 08h 36m 41s.xml">
+      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="JSCExecutor_CallFunction - 2018.08.17 at 08h 45m 04s.xml">
+      <configuration name="JSCExecutor.CallFunction" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59705000" />
+    <option name="totallyTimeSpent" value="78286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1342246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17754011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" weight="0.32901832" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" weight="0.42686892" />
-      <window_info anchor="bottom" id="Terminal" weight="0.6749729" />
+      <window_info anchor="bottom" id="Terminal" weight="0.07367281" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34777898" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37378114" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.032502707" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37378114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41603467" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,15 +486,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/cxxreact/JSCExecutor.cpp</url>
-          <line>620</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeGoogleTestRunConfigurationType">
         <watch expression="capturedMethodCalls" language="ObjectiveC" />
@@ -506,97 +509,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsinspector/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microprofiler/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/tests/BUCK">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret column="48" selection-start-column="32" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSStringRef.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JavaScript.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/JSCSamplingProfiler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/BUCK">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="17" selection-start-line="17" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="71" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/systemJSCWrapper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="124" column="32" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/BUCK">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jschelpers/JSCWrapper.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -631,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/noncopyable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/WebKitAvailability.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -659,20 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/include/folly/dynamic-inl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="906" selection-start-line="906" selection-end-line="907" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSBase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="108" column="169" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="169" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jschelpers/JSCHelpers.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -680,13 +571,6 @@
           <folding>
             <element signature="e#188#208#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/NativeToJsBridge.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -732,27 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/JSBigString.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSContextRef.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="117" column="65" lean-forward="true" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/Value.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/4.9/functional">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -764,55 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="714" selection-start-line="714" selection-end-line="714" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSObjectRef.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="617" column="21" selection-start-line="617" selection-start-column="21" selection-end-line="617" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/JSCExecutor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="110" column="42" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/JSCHelpers.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/Value.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jschelpers/JavaScriptCore.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="110" column="72" selection-start-line="110" selection-start-column="72" selection-end-line="110" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSValueRef.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="231" column="39" lean-forward="true" selection-start-line="231" selection-start-column="39" selection-end-line="231" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/MethodCall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -840,35 +654,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/include/folly/json.h">
+    <entry file="file:///usr/local/include/folly/dynamic-inl.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="159" column="7" selection-start-line="159" selection-end-line="159" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/folly/dynamic.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        <state relative-caret-position="61">
+          <caret line="230" column="42" lean-forward="true" selection-start-line="230" selection-start-column="42" selection-end-line="230" selection-end-column="42" />
           <folding>
-            <element signature="e#2336#2430#1" />
-            <element signature="e#2443#2473#0" expanded="true" />
+            <element signature="e#7814#7829#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/MethodCall.cpp">
+    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSObjectRef.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="268">
+          <caret line="80" column="61" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSContextRef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="111" selection-start-line="111" selection-end-line="117" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/JSCExecutor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="125" column="7" selection-start-line="125" selection-start-column="7" selection-end-line="125" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/NativeToJsBridge.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="154" column="28" lean-forward="true" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/Instance.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jschelpers/JavaScriptCore.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="153" column="25" lean-forward="true" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jschelpers/JSCHelpers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="180" column="15" selection-start-line="180" selection-start-column="15" selection-end-line="180" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="398" column="12" selection-start-line="398" selection-start-column="8" selection-end-line="398" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jschelpers/noncopyable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="63" column="46" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/webkitgtk-1.0/JavaScriptCore/JSValueRef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.9/chrono">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="715" column="11" selection-start-line="715" selection-start-column="11" selection-end-line="715" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cxxreact/JSCExecutor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="620" selection-start-line="620" selection-end-line="620" />
+        <state relative-caret-position="182">
+          <caret line="528" column="26" selection-start-line="528" selection-start-column="8" selection-end-line="528" selection-end-column="26" />
           <folding>
             <element signature="e#174#198#0" expanded="true" />
             <element signature="e#1255#1318#0" expanded="true" />
@@ -887,13 +770,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cxxreact/tests/jscexecutor.cpp">
+    <entry file="file://$PROJECT_DIR$/jschelpers/Value.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="65" selection-start-line="65" selection-end-line="72" selection-end-column="1" />
+        <state relative-caret-position="294">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="e#4529#7436#1" />
+            <element signature="e#7594#10510#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jschelpers/Value.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+          <folding>
+            <element signature="e#539#1026#0" />
+            <element signature="e#1028#1303#0" />
+            <element signature="e#3257#5034#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/tests/value.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="e#173#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/tests/RecoverableErrorTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="39" />
           <folding>
             <element signature="e#174#198#0" expanded="true" />
-            <element signature="e#1603#1917#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/folly/json.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1740" column="8" selection-start-line="1740" selection-start-column="8" selection-end-line="1740" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/MethodCall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/folly/dynamic.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+          <folding>
+            <element signature="e#2443#2473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/MethodCall.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/tests/methodcall.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="152" column="32" lean-forward="true" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/tests/jsclogging.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#174#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/tests/jscexecutor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="237" column="7" lean-forward="true" selection-start-line="237" selection-start-column="7" selection-end-line="237" selection-end-column="7" />
+          <folding>
+            <element signature="e#174#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="563" column="13" selection-start-line="563" selection-start-column="13" selection-end-line="563" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/JSBigString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="106" column="16" lean-forward="true" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/tests/jsbigstring.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/JsArgumentHelpers-inl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="e#257#296#0" expanded="true" />
+            <element signature="e#783#810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/JsArgumentHelpers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="108" selection-start-line="108" selection-end-line="108" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxreact/tests/jsarg_helpers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="100" selection-end-column="37" />
+          <folding>
+            <element signature="e#174#213#0" expanded="true" />
           </folding>
         </state>
       </provider>

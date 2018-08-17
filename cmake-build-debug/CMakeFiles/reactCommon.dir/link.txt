@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/reactCommon.dir/main.cpp.o  -o reactCommon -ljavascriptcoregtk-1.0 yoga/libyoga.a jschelpers/libjschelpers.a cxxreact/libcxxreact.a privatedata/libprivatedata.a 

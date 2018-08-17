@@ -1,2 +1,0 @@
-/usr/bin/ar qc libprivatedata.a  CMakeFiles/privatedata.dir/PrivateDataBase.cpp.o
-/usr/bin/ranlib libprivatedata.a

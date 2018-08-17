@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmicroprofiler.a  CMakeFiles/microprofiler.dir/MicroProfiler.cpp.o
-/usr/bin/ranlib libmicroprofiler.a

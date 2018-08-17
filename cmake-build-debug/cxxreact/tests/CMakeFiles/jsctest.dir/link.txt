@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/jsctest.dir/jscexecutor.cpp.o CMakeFiles/jsctest.dir/usr/src/gtest/src/gtest_main.cc.o  -o jsctest ../libcxxreact.a ../../jschelpers/libjschelpers.a -lgtest -lgtest_main -lfolly -ldouble-conversion -lglog -ljavascriptcoregtk-1.0 ../../privatedata/libprivatedata.a ../../jsinspector/libjsinspector.a ../../microprofiler/libmicroprofiler.a -lpthread 
